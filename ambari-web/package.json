@@ -13,7 +13,7 @@
     "css-brunch": ">= 1.0 < 1.5",
     "uglify-js-brunch": ">= 1.0 < 1.5",
     "clean-css-brunch": ">= 1.0 < 1.5",
-    "ember-precompile-brunch": "^0.1.1",
+    "ember-handlebars-brunch":"git://github.com/icholy/ember-handlebars-brunch.git#540127137296a09601cbd215dcf4da4d27bcfb9e",
     "ember-radio-button": "0.1.2",
     "less-brunch": ">= 1.0 < 1.5",
     "cssstyle": "0.2.3"
