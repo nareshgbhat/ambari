@@ -26,7 +26,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <python.ver>python &gt;= 2.6</python.ver>
     <!-- On centos the python xml's are inside python package -->
-    <deb.architecture>amd64</deb.architecture>
+    <deb.architecture>arm64</deb.architecture>
     <custom.tests>false</custom.tests>
     <hdpUrlForCentos6>http://public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.1.1.0</hdpUrlForCentos6>
     <hdpLatestUrl>http://public-repo-1.hortonworks.com/HDP/hdp_urlinfo.json</hdpLatestUrl>
