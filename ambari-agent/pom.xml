@@ -301,7 +301,7 @@
             <fileEncoding>utf-8</fileEncoding>
           </postremoveScriptlet>
 
-          <needarch>x86_64</needarch>
+          <needarch>aarch64</needarch>
           <autoRequires>false</autoRequires>
           <mappings>
             <mapping>
