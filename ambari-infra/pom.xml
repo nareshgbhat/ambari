@@ -29,7 +29,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <python.ver>python &gt;= 2.6</python.ver>
     <deb.python.ver>python (&gt;= 2.6)</deb.python.ver>
-    <deb.architecture>amd64</deb.architecture>
+    <deb.architecture>arm64</deb.architecture>
     <deb.dependency.list>${deb.python.ver}</deb.dependency.list>
     <hadoop.version>3.0.0</hadoop.version>
     <surefire.argLine>-Xmx1024m -Xms512m</surefire.argLine>

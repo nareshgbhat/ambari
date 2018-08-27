@@ -49,7 +49,7 @@
     <buildnumber-maven-plugin-version>1.2</buildnumber-maven-plugin-version>
     <deb.publisher>Hortonworks</deb.publisher>
     <deb.section>universe/admin</deb.section>
-    <deb.architecture>i386 amd64</deb.architecture>
+    <deb.architecture>arm64</deb.architecture>
     <deb.priority>extra</deb.priority>
     <stack.distribution>HDP</stack.distribution>
     <ambari.dir>${project.basedir}</ambari.dir>
