@@ -1,0 +1,25 @@
+{
+  "type" : "full-release",
+  "name" : "bigtop-ambari-mpack",
+  "version": "${project.version}",
+  "description" : "BigTop Ambari Management Pack",
+  "prerequisites": {
+    "min-ambari-version" : "${minAmbariVersion}",
+    "max-ambari-version" : "${maxAmbariVersion}"
+  },
+  "hooks": [
+    {
+      "name": "after-install",
+      "type": "python",
+      "script": "hooks/after_install.py"
+    }
+  ],
+  "artifacts": [
+    {
+      "name" : "bigtop-stack-definitions",
+      "type" : "stack-definitions",
+      "source_dir": "stacks"
+    }
+  ]
+}
+

@@ -1,0 +1,4 @@
+{
+  "stack_selector": ["bigtop-select", "/usr/bin/bigtop-select", "bigtop-select"],
+  "conf_selector": ["conf-select", "/usr/bin/conf-select", "conf-select"]
+}
